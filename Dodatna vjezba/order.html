@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="descrpition" content="site for my front end development classes">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="author" content="Ivan Herkvi">
+    <title>Order - Work site</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#oMeni">O meni</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                    <li><a href="order.html">Order</a></li>
+                </ul>
+            </nav>
+        </nav>
+    </header>
+    <main>
+        <form name="obrazac1" method="post" enctype="multipart/form-data" autocomplete="off"> 
+            <p>
+                <label for="ime">Name and Surname*</label><br>
+                <input id="ime" name="imeiprezime" type="text" size="20" placeholder="Enter your name" required>
+            </p>
+
+            <p>
+                <label for="mail">E-mail address*</label><br>
+                <input id="mail" name="email" type="email" size="30" maxlength="50" placeholder="Enter valid E-mail address" required>
+            </p>
+
+            <p>
+                <label for="tel">Telephone number</label><br>
+                <input id="tel" name="tel" size="12" placeholder="+385-1-234-567">
+            </p>
+
+            <p>
+                <label for="date">Date of birth<br></label>
+                <input id="date" name="date" type="date">
+            </p>
+
+            <p>
+                <label for="selection">Product</label>
+                <select id="selection" name="selection">
+                    <option value="čarape">Socks</option>
+                    <option value="lampe">Lamp</option>
+                    <option value="table">Table</option>
+                </select>
+            </p>
+        </form>
+        <button type="button">Poništi</button>
+        <button type="button">Potvrdi</button>
+    </main>
+</body>
+
+</html>
