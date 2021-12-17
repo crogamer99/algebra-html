@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(40, 39, 42);
+    color:white;
+    font-size: 16px;
+}
+
+aside{
+    float:right;
+    margin-right:30px;
+    margin-top:-100px;
+}
+
+.mainBasicsText{
+    margin-right:55%;
+}
+
+#table{
+    border:1px solid black;
+    width:65%;
+}
+
+#table th,
+#table tr{
+    border:1px solid black;
+}
+
+.footerRightSide{
+    margin-top:-50px;
+    float: right;
+}
+
+.footerCopyright{
+    margin-top:50px;
+    margin-bottom:20px;
+    font-size:12px;
+}
+
+#form{
+    margin-left:35%;
+}
+
+#footer2{
+    margin-top:250px
+}
+
+.title2{
+    margin-left:35%
+}
