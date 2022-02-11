@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+		<meta name="descrpition" content="site for my front end development classes">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="author" content="Ivan Herkvi">
+        <title>Work site</title>
+    </head>
+    <body>
+        <form name="obrazac1" method="post" enctype="multipart/form-data" autocomplete="off"> 
+            <p>
+                <label for="ime">Ime i prezime*</label><br>
+                <input id="ime" name="imeiprezime" type="text" size="20" placeholder="Vaše ime i prezime" required>
+            </p>
+
+            <p>
+                <label for="mail">E-mail adresa*</label><br>
+                <input id="mail" name="email" type="email" size="30" maxlength="50" placeholder="Unesite valjanju e-mail adresu" required>
+            </p>
+
+            <p>
+                <label for="tel">Kontakt broj telefon</label><br>
+                <input id="tel" name="tel" size="12" placeholder="+385-1-234-567">
+            </p>
+
+            <p>
+                <label for="date">Datum rođenja<br></label>
+                <input id="date" name="date" type="date">
+            </p>
+
+            <p>
+                <label for="language">Koje jezike govorite?<br></label>
+                Engleski
+                <input id="language" name="English" type="checkbox" value="false">
+                <br> Talijanski
+                <input id="language2" name="Italian" type="checkbox" value="false">
+                <br> Njemački
+                <input id="language3" name="German" type="checkbox" value="false">
+                <br>Francuski
+                <input id="language4" name="French" type="checkbox" value="false">
+                <br>Španjolski
+                <input id="language5" name="Spanish" type="checkbox" value="false">
+            </p>
+
+            <p>
+                Dali ste do sada koristili usluge naše tvrtke<br>
+                <label for="Usluge1">Da</label>
+                <input id="Usluge1" name="Usluge" type="radio" value="1"><br>
+                <label for="Usluge2">Ne</label>
+                <input id="Usluge2" name="Usluge" type="radio" value="2"><br>
+            </p>
+
+            <p>
+                <label for="resume">Priložte životopis</label><br>
+                <input id="resume" name="resume" type="file">
+            </p>
+
+        </form>
+        <button type="button">Poništi</button>
+        <button type="button">Prijavi se</button>
+    </body>
+</html>

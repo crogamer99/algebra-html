@@ -1,0 +1,20 @@
+body{
+    background-color:#1D3848;
+    font-size: 14px;
+    font-family: 'Times New Roman', serif;
+}
+.text1{
+    margin-top:-8px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-left: 2px;
+    background-color:#2D3848;
+	color:#FFFFFF;
+}
+.description{
+    margin-right:500px;
+}
+.slika{
+    margin-top:-140px;
+    margin-left:80%;
+}

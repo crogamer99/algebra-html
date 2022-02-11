@@ -1,0 +1,9 @@
+.video{
+    float: right;
+}
+
+.pic img{
+    display: block;
+    float:left;
+    margin-left: 10%;
+}
